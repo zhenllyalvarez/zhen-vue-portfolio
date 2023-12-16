@@ -18,11 +18,7 @@ const pageTitle = "Home";
         <h3 class="text-indigo-100 font-semibold text-2xl mt-12">
           What I Offer?
         </h3>
-        <h1 class="text-5xl font-bold mb-4 text-white">My Services</h1>
-        <p class="text-xl font-normal text-white">
-          There are many variations of passages of Lorem Ipsum available but the
-          majority have suffered alteration in some form.
-        </p>
+        <h1 class="text-5xl font-bold text-white">My Services</h1>
       </div>
       <div class="bg-indigo-950 py-6 sm:py-8 lg:py-12">
         <div class="mx-auto max-w-screen-xl px-4 md:px-8">
