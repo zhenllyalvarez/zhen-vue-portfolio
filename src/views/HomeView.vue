@@ -21,7 +21,7 @@ const pageTitle = "Home";
         <h1 class="text-5xl font-bold text-white">My Services</h1>
       </div>
       <div class="bg-indigo-950 py-6 sm:py-8 lg:py-12">
-        <div class="mx-auto max-w-screen-xl px-4 md:px-8">
+        <div class="mx-auto max-w-screen-xl px-4 md:px-8 ">
           <div
             class="grid gap-8 sm:grid-cols-2 sm:gap-12 lg:grid-cols-2 xl:grid-cols-2 xl:gap-16 mt-12"
           >
@@ -39,7 +39,7 @@ const pageTitle = "Home";
 
               <div class="flex flex-col gap-2">
                 <h2 class="text-xl font-bold text-white">
-                  <p>User Testing</p>
+                  <p>UI/UX Design</p>
                 </h2>
 
                 <p class="text-white">

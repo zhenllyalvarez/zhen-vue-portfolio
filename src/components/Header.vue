@@ -46,7 +46,7 @@ const toggleMobileMenu = () => {
 
                 <!-- Burger Menu -->
                 <div @click="toggleMobileMenu"
-                    class="cursor-pointer block lg:hidden border border-gray-200 bg-gray-100 hover:bg-gray-200 p-2 rounded-full">
+                    class="cursor-pointer block lg:hidden border border-gray-200 bg-gray-100 hover:bg-gray-200 sm:mr-5 sm:bg-gray-0 p-2 rounded-full">
                     <svg class="w-[24px] h-[24px] text-gray-700" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                         fill="none" viewBox="0 0 16 12">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"

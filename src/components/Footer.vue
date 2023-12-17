@@ -92,30 +92,30 @@
 
             <nav class="flex flex-col gap-4">
               <div>
-                <a
+                <a href="/"
                   class="transition duration-100 hover:text-indigo-500 active:text-indigo-600 cursor-pointer"
                   >Home</a
                 >
               </div>
 
               <div>
-                <a
+                <a href="/about"
                   class="transition duration-100 hover:text-indigo-500 active:text-indigo-600 cursor-pointer"
                   >About</a
                 >
               </div>
 
               <div>
-                <a
+                <a href="/projects"
                   class="transition duration-100 hover:text-indigo-500 active:text-indigo-600 cursor-pointer"
                   >Project</a
                 >
               </div>
 
               <div>
-                <a
+                <a href="/contact"
                   class="transition duration-100 hover:text-indigo-500 active:text-indigo-600 cursor-pointer"
-                  >Services</a
+                  >Contact</a
                 >
               </div>
             </nav>
