@@ -8,22 +8,22 @@ const pageTitle = "Contact";
 <template>
   <MainLayout :pageTitle="pageTitle">
     <section class="bg-gray-100 sm:p-2">
-      <div class="p-0 lg:p-12 sm:p-8 md:p-12 flex gap-12">
-        <div>
-          <h1 class="font-bold lg:text-7xl sm:text-4xl md:text:4xl">Contact</h1>
+      <div class="p-0 lg:p-12 sm:p-8 md:p-12 lg:flex sm:col gap-24">
+        <div class="">
+          <h1 class="font-bold lg:text-7xl md:text-4xl sm:text-3xl mt-10">Contact</h1>
           <h1 class="font-semibold mt-4 lg:text-xl md:text-md">
             Get in touch, let's have a quick call.
           </h1>
-          <h1 class="text-md font-normal text-gray-600 sm:text-sm">
+          <h1 class="text-md font-semibold text-gray-500 sm:text-sm">
             Embark on a conversation with me! Your thoughts and inquiries are
-            the compass guiding <br> our journey together.
+            the compass guiding our journey together.
           </h1>
         </div>
-        <div>
+        <div class="">
           <h1 class="font-medium text-3xl mt-12">Connect With Me</h1>
-          <p class="font-normal text-xl text-gray-500">
-            Join me on a journey of discovery as I offer you the chance <br> to delve
-            into the depths of meaningful communication and<br> shared experiences
+          <p class="font-normal text-xl text-gray-500 sm:text-md">
+            Join me on a journey of discovery as I offer you the chance to delve
+            into the depths of meaningful communication and shared experiences
             via the virtual environments design.
           </p>
           <h1 class="mt-3 text-lg font-bold text-gray-500">My Socials</h1>
