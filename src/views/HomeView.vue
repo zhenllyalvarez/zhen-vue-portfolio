@@ -13,7 +13,7 @@ const pageTitle = "Home";
     <!-- Hero Banner Section -->
     <HeroBanner />
 
-    <div class=" mt-12 mb-12 bg-indigo-950 rounded">
+    <div class="mt-12 mb-12 bg-indigo-950 rounded">
       <div class="flex flex-col text-center mt-12">
         <h3 class="text-indigo-100 font-semibold text-2xl mt-12">
           What I Offer?
@@ -21,7 +21,7 @@ const pageTitle = "Home";
         <h1 class="text-5xl font-bold text-white">My Services</h1>
       </div>
       <div class="bg-indigo-950 py-6 sm:py-8 lg:py-12">
-        <div class="mx-auto max-w-screen-xl px-4 md:px-8 ">
+        <div class="mx-auto max-w-screen-xl px-4 md:px-8">
           <div
             class="grid gap-8 sm:grid-cols-2 sm:gap-12 lg:grid-cols-2 xl:grid-cols-2 xl:gap-16 mt-12"
           >
@@ -43,16 +43,12 @@ const pageTitle = "Home";
                 </h2>
 
                 <p class="text-white">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Quisque ligulavel in.
+                  Dynamic and responsive website, implementing innovative
+                  features and ensuring optimal functionality for an enhanced
+                  user experience.
                 </p>
 
-                <div>
-                  <a
-                    class="font-semibold text-indigo-100 transition duration-100 hover:text-indigo-400 active:text-indigo-700 cursor-pointer"
-                    >Read more</a
-                  >
-                </div>
+                <div></div>
               </div>
             </div>
 
@@ -74,16 +70,13 @@ const pageTitle = "Home";
                 </h2>
 
                 <p class="text-white">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Quisque ligulavel in.
+                  In order to achieve the best possible user engagement, I
+                  painstakingly converted design thoughts into code,
+                  guaranteeing pixel-perfect accuracy and flawless
+                  functionality.
                 </p>
 
-                <div>
-                  <a
-                    class="font-semibold text-indigo-100 transition duration-100 hover:text-indigo-400 active:text-indigo-700 cursor-pointer"
-                    >Read more</a
-                  >
-                </div>
+                <div></div>
               </div>
             </div>
 
@@ -105,16 +98,12 @@ const pageTitle = "Home";
                 </h2>
 
                 <p class="text-white">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Quisque ligulavel in.
+                  The web alchemist meticulously forged elegant and potent code,
+                  conjuring user-centric, feature-rich websites that came alive,
+                  ensuring unparalleled customer satisfaction.
                 </p>
 
-                <div>
-                  <a
-                    class="font-semibold text-indigo-100 transition duration-100 hover:text-indigo-400 active:text-indigo-700 cursor-pointer"
-                    >Read more</a
-                  >
-                </div>
+                <div></div>
               </div>
             </div>
 
@@ -136,15 +125,13 @@ const pageTitle = "Home";
                 </h2>
 
                 <p class="text-white">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Quisque ligulavel in.
+                  Skillfully intertwined lines of code and imaginative flair,
+                  crafting interfaces that dance between sophistication and
+                  responsiveness, seamlessly fusing aesthetics with flawless
+                  functionality.
                 </p>
 
                 <div>
-                  <a
-                    class="font-semibold text-indigo-100 transition duration-100 hover:text-indigo-400 active:text-indigo-700 cursor-pointer"
-                    >Read more</a
-                  >
                 </div>
               </div>
             </div>
