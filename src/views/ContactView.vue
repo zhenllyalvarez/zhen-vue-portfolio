@@ -77,8 +77,114 @@ const pageTitle = "Contact";
                   d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
                 ></path>
               </svg>
-              </a>
+            </a>
           </div>
+        </div>
+      </div>
+      <div class="bg-gray-150 mt-16 py-6 lg:px-72 sm:py-8 lg:py-12">
+        <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
+          <!-- text - start -->
+          <div class="mb-10 md:mb-16">
+            <h2
+              class="mb-4 text-center text-2xl font-bold text-gray-800 md:mb-6 lg:text-3xl"
+            >
+              Get in touch
+            </h2>
+
+            <p
+              class="mx-auto max-w-screen-md text-center text-gray-500 md:text-lg"
+            >
+              Feel free to get in touch with us by reaching out to our contact
+              information for any inquiries or assistance you may need.
+            </p>
+          </div>
+          <!-- text - end -->
+
+          <!-- form - start -->
+          <form
+            class="mx-auto grid max-w-screen-md gap-4 sm:grid-cols-2 bg-white p-12 rounded-md"
+          >
+            <div>
+              <label
+                for="first-name"
+                class="mb-2 inline-block text-sm text-gray-800 sm:text-base"
+                >First name*</label
+              >
+              <input
+                name="first-name"
+                class="w-full rounded border bg-gray-50 px-3 py-2 text-gray-800 outline-none ring-indigo-300 transition duration-100 focus:ring"
+              />
+            </div>
+
+            <div>
+              <label
+                for="last-name"
+                class="mb-2 inline-block text-sm text-gray-800 sm:text-base"
+                >Last name*</label
+              >
+              <input
+                name="last-name"
+                class="w-full rounded border bg-gray-50 px-3 py-2 text-gray-800 outline-none ring-indigo-300 transition duration-100 focus:ring"
+              />
+            </div>
+
+            <div class="sm:col-span-2">
+              <label
+                for="company"
+                class="mb-2 inline-block text-sm text-gray-800 sm:text-base"
+                >Company</label
+              >
+              <input
+                name="company"
+                class="w-full rounded border bg-gray-50 px-3 py-2 text-gray-800 outline-none ring-indigo-300 transition duration-100 focus:ring"
+              />
+            </div>
+
+            <div class="sm:col-span-2">
+              <label
+                for="email"
+                class="mb-2 inline-block text-sm text-gray-800 sm:text-base"
+                >Email*</label
+              >
+              <input
+                name="email"
+                class="w-full rounded border bg-gray-50 px-3 py-2 text-gray-800 outline-none ring-indigo-300 transition duration-100 focus:ring"
+              />
+            </div>
+
+            <div class="sm:col-span-2">
+              <label
+                for="subject"
+                class="mb-2 inline-block text-sm text-gray-800 sm:text-base"
+                >Subject*</label
+              >
+              <input
+                name="subject"
+                class="w-full rounded border bg-gray-50 px-3 py-2 text-gray-800 outline-none ring-indigo-300 transition duration-100 focus:ring"
+              />
+            </div>
+
+            <div class="sm:col-span-2">
+              <label
+                for="message"
+                class="mb-2 inline-block text-sm text-gray-800 sm:text-base"
+                >Message*</label
+              >
+              <textarea
+                name="message"
+                class="h-64 w-full rounded border bg-gray-50 px-3 py-2 text-gray-800 outline-none ring-indigo-300 transition duration-100 focus:ring"
+              ></textarea>
+            </div>
+
+            <div class="flex items-center justify-between sm:col-span-2">
+              <button
+                class="inline-block rounded-lg bg-indigo-500 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-indigo-600 focus-visible:ring active:bg-indigo-700 md:text-base"
+              >
+                Send
+              </button>
+            </div>
+          </form>
+          <!-- form - end -->
         </div>
       </div>
     </section>

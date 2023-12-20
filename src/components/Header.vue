@@ -10,7 +10,7 @@ const toggleMobileMenu = () => {
 
 <template>
     <header class="bg-white border-b border-gray-200">
-        <nav class="mx-auto max-w-screen-xl px-12 py-4 lg:p-5">
+        <nav class="mx-auto max-w-screen-xl px-12 py-4 lg:px-16 lg:p-5">
             <div class="flex flex-row items-center justify-between">
                 <router-link to="/" class="flex flex-col">
                     <h1 class="font-bold text-xl text-indigo-950">John Zhenlly Alvarez  </h1>
@@ -58,7 +58,7 @@ const toggleMobileMenu = () => {
             <!-- Mobile Menu -->
             <div v-if="isOpenMenu" class="flex lg:hidden relative">
 
-                <div class="bg-white flex flex-col absolute top-[18px] -left-[52px] w-screen gap-4 shadow-lg p-6 rounded">
+                <div class="bg-white flex flex-col absolute top-[18px] -left-[52px] w-screen gap-4 shadow-lg p-6 rounded z-50">
                     <router-link to="/"
                         :class="$route.name === 'home' ? 'bg-gray-50 p-2 rounded text-indigo-700 font-medium text-lg' : 'hover:bg-gray-50 p-2 text-gray-700 hover:text-indigo-700 font-normal text-lg'">
                         Home
