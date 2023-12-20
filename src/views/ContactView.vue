@@ -10,7 +10,7 @@ const pageTitle = "Contact";
     <section class="bg-gray-100 sm:p-2">
       <div class="p-0 lg:p-12 sm:p-8 md:p-12 lg:flex sm:col gap-24">
         <div class="">
-          <h1 class="font-bold lg:text-7xl md:text-4xl sm:text-3xl">Contact</h1>
+          <h1 class="font-bold lg:text-7xl md:text-4xl sm:text-3xl lg:mt-10">Contact</h1>
           <h1 class="font-semibold mt-4 lg:text-xl md:text-md">
             Get in touch, let's have a quick call.
           </h1>

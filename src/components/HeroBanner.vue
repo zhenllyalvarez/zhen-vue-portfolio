@@ -29,7 +29,7 @@ import HeroBannerImg from "../assets/zhen.jpg";
           class="flex flex-col gap-2.5 sm:flex-row sm:justify-center lg:justify-start"
         >
           <router-link
-            to="/contact"
+            to="/About"
             href="#"
             class="inline-block rounded-full bg-indigo-800 px-8 py-3 text-center text-sm font-semibold text-white outline-none ring-indigo-300 transition duration-100 hover:bg-indigo-600 focus-visible:ring active:bg-indigo-700 md:text-base"
           >
