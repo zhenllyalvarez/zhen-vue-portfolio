@@ -13,27 +13,28 @@ const toggleMobileMenu = () => {
         <nav class="mx-auto max-w-screen-xl px-12 py-4 lg:px-16 lg:p-5">
             <div class="flex flex-row items-center justify-between">
                 <router-link to="/" class="flex flex-col">
-                    <h1 class="font-bold text-xl text-indigo-950">John Zhenlly Alvarez  </h1>
-                    <p class="font-light text-lg text-indigo-800">Full-stack Developer</p>
+                    <h1 class="font-bold text-xl text-gray-950">John Zhenlly Alvarez  </h1>
+                    <p class="font-normal text-lg text-gray-800">Fresh Graduate</p>
+                    <!-- junior web developer -->
                 </router-link>
 
                 <!-- Desktop Menu -->
                 <div class="hidden lg:block">
                     <ul class="flex flex-row gap-8">
                         <li
-                            :class="$route.name === 'home' ? 'text-indigo-900 font-medium text-lg' : 'text-gray-900 hover:text-indigo-900 font-normal text-lg'">
+                            :class="$route.name === 'home' ? 'text-gary-900 font-medium text-lg' : 'text-gray-900 hover:text-gray-950 font-normal text-lg'">
                             <router-link to="/">Home</router-link>
                         </li>
                         <li
-                            :class="$route.name === 'about' ? 'text-indigo-900 font-medium text-lg' : 'text-gray-900 hover:text-indigo-900 font-normal text-lg'">
+                            :class="$route.name === 'about' ? 'text-gary-900 font-medium text-lg' : 'text-gray-900 hover:text-gray-950 font-normal text-lg'">
                             <router-link to="/about">About</router-link>
                         </li>
                         <li
-                            :class="$route.name === 'projects' ? 'text-indigo-900 font-medium text-lg' : 'text-gray-900 hover:text-indigo-900 font-normal text-lg'">
+                            :class="$route.name === 'projects' ? 'text-gary-900 font-medium text-lg' : 'text-gray-900 hover:text-gray-950 font-normal text-lg'">
                             <router-link to="/projects">Projects</router-link>
                         </li>
                         <li
-                            :class="$route.name === 'contact' ? 'text-indigo-900 font-medium text-lg' : 'text-gray-900 hover:text-indigo-900 font-normal text-lg'">
+                            :class="$route.name === 'contact' ? 'text-gary-900 font-medium text-lg' : 'text-gray-900 hover:text-gray-950 font-normal text-lg'">
                             <router-link to="/contact">Contact</router-link>
                         </li>
                     </ul>
@@ -41,7 +42,7 @@ const toggleMobileMenu = () => {
 
                 <!-- Desktop Social Icons -->
                 <div class="hidden lg:block">
-                    <button class="bg-indigo-900 hover:bg-indigo-900 text-white py-3 px-6 rounded-full">Download Resume</button>
+                    <button class="font-medium text-gray-700 hover:text-gray-950">Download Resume</button>
                 </div>
 
                 <!-- Burger Menu -->
@@ -76,7 +77,7 @@ const toggleMobileMenu = () => {
                         Contact
                     </router-link>
 
-                    <button class="bg-indigo-800 hover:bg-indigo-900 text-white py-3 px-6 rounded-full">Download Resume</button>
+                    <button class="font-medium text-gray-700 hover:text-gray-950">Download Resume</button>
                 </div>
             </div>
         </nav>
