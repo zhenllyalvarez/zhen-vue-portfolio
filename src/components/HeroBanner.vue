@@ -4,7 +4,7 @@ import HeroBannerImg from "../assets/pp.jpg";
 
 <template>
   <section
-    class="flex flex-col justify-between gap-6 sm:gap-10 md:gap-16 lg:flex-row py-28 mx-auto max-w-screen-xl px-16"
+    class="flex flex-col justify-between gap-6 sm:gap-10 md:gap-16 lg:flex-row py-28 mx-auto max-w-screen-xl px-16 mt-12"
   >
     <!-- content - start -->
     <div class="flex flex-col justify-between xl:w-5/12">
@@ -45,7 +45,7 @@ import HeroBannerImg from "../assets/pp.jpg";
         </div>
       </div>
     </div>
-    <div class="h-full overflow-hidden rounded-lg bg-gray-800 xl:w-2/5 lg:mr-12 md:w-1/1">
+    <div class="h-full overflow-hidden rounded-lg bg-gray-800 xl:w-2/5 flex justify-end">
       <img
         :src="HeroBannerImg"
         loading="lazy"

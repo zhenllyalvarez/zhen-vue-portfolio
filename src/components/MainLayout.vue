@@ -6,7 +6,7 @@ import Footer from "../components/Footer.vue";
 const showButton = ref(false);
 
 const handleScroll = () => {
-  showButton.value = window.scrollY > 100; // Adjust the scroll threshold as needed
+  showButton.value = window.scrollY > 200; // Adjust the scroll threshold as needed
 };
 
 const scrollToTop = () => {
@@ -35,7 +35,7 @@ onMounted(() => {
       <button
         v-if="showButton"
         @click="scrollToTop"
-        class="fixed bottom-4 right-4 bg-indigo-800 text-white p-2.5 rounded-md mb-12 shadow-md hover:scale-110 transition-opacity duration-300 z-50"
+        class="fixed bottom-4 right-4 bg-gray-800 text-white p-2.5 rounded-md mb-12 shadow-md hover:scale-110 transition-opacity duration-300 z-50"
       >
         <svg
           class="w-[24px] h-[24px] text-white"

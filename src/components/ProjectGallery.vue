@@ -1,49 +1,85 @@
 <template>
-    <div class="mx-12 mt-16">
-        <div class="worDescription flex flex-col text-center mt-12">
-            <h1 class="text-5xl font-bold mb-3">
-                Latest Project
-            </h1>
-            <p class="text-2xl font-normal text-gray-500">
-                A compiled projects in Platform Technology 2.
-            </p>
+    <section>
+      <div>
+        <h1
+          class="font-bold text-4xl sm:text-5xl md:text-6xl lg:text-4xl xs:p-4 sm:p-8 md:p-8 lg:p-12 text-center"
+        >
+          Projects/Gallery
+        </h1>
+      </div>
+      <div class="bg-white sm:py-8 lg:py-12">
+        <div class="mx-auto max-w-screen-2xl px-4 md:px-8 mt-12 lg:px-16 mb-12">
+          <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 xl:gap-8">
+            <!-- image - start -->
+            <router-link
+              to="/ToDo"
+              class="group relative flex h-32 items-end justify-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80"
+            >
+              <img
+                src="../assets/todo.png"
+                loading="lazy"
+                alt="Photo by Minh Pham"
+                class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
+              />
+
+              <div
+                class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"
+              ></div>
+
+              <span
+                class="relative mr-3 mb-3 inline-block rounded-lg border border-gray-500 px-2 py-1 text-xs text-gray-200 backdrop-blur md:px-3 md:text-sm"
+                >Simple To-do</span
+              >
+            </router-link>
+            <!-- image - end -->
+
+            <!-- image - start -->
+            <router-link
+              to="/TimeInTimeOut"
+              class="group relative flex h-48 items-end justify-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80"
+            >
+              <img
+                src="../assets/tito.png"
+                loading="lazy"
+                alt="Photo by Lorenzo Herrera"
+                class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
+              />
+
+              <div
+                class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"
+              ></div>
+
+              <span
+                class="relative mr-3 mb-3 inline-block rounded-lg border border-gray-500 px-2 py-1 text-xs text-gray-200 backdrop-blur md:px-3 md:text-sm"
+                >Simple Time Clock</span
+              >
+            </router-link>
+            <!-- image - end -->
+
+            <!-- image - start -->
+            <a
+              href="https://www.swapifine.com/"
+              class="group relative flex h-48 items-end justify-end overflow-hidden rounded-lg bg-gray-100 shadow-lg md:h-80"
+            >
+              <img
+                src="../assets/swapifine.png"
+                loading="lazy"
+                alt="Photo by Magicle"
+                class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110"
+              />
+
+              <div
+                class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50"
+              ></div>
+
+              <span
+                class="relative mr-3 mb-3 inline-block rounded-lg border border-gray-500 px-2 py-1 text-xs text-gray-200 backdrop-blur md:px-3 md:text-sm"
+                >Swapifine</span
+              >
+            </a>
+            <!-- image - end -->
+          </div>
         </div>
-        <div class="projects flex justify-center gap-12 mt-12 mb-12">
-            <div class="bg-white py-6 sm:py-8 lg:py-12 mb-12">
-                <div class="mx-auto max-w-screen-2xl px-4 md:px-8">
-                    <div class="grid gap-12 sm:grid-cols-2">
-                        <router-link to="/ToDo"
-                            class="group relative flex h-80 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-                            <img src="../assets/todo.png" loading="lazy" alt="Photo by Fakurian Design"
-                                class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
-
-                            <div
-                                class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
-                            </div>
-
-                            <div class="relative flex flex-col w-72">
-                                <span class="text-gray-300">To-Do List</span>
-                                <span class="text-lg font-semibold text-white lg:text-xl">List your tasks</span>
-                            </div>
-                        </router-link>
-
-                        <router-link to="/TimeInTimeOut"
-                            class="group relative flex h-80 items-end overflow-hidden rounded-lg bg-gray-100 p-4 shadow-lg">
-                            <img src="../assets/tito.png" loading="lazy"  alt="Photo by Fakurian Design"
-                                class="absolute inset-0 h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
-
-                            <div
-                                class="pointer-events-none absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent opacity-50">
-                            </div>
-
-                            <div class="relative flex flex-col w-72">
-                                <span class="text-gray-300">Time Clock</span>
-                                <span class="text-lg font-semibold text-white lg:text-xl">Track your time</span>
-                            </div>
-                        </router-link>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+      </div>
+    </section>
 </template>
